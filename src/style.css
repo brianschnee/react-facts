@@ -1,0 +1,95 @@
+/* 
+=======================================
+============= Base Styles =============
+=======================================
+*/
+
+body {
+	margin: 0;
+	background: #282d35;
+}
+
+#root {
+	font-family: 'Inter', sans-serif;
+}
+
+/* 
+=============================================
+============= Additional Styles =============
+=============================================
+*/
+
+/* 
+============= Navigation =============
+*/
+
+.navbar {
+	background: #21222a;
+	display: flex;
+	align-items: center;
+	padding: 10px 30px;
+}
+
+.nav-logo {
+	width: 30px;
+}
+
+.react-facts {
+	font-size: 18px;
+	padding-left: 6px;
+	color: #61dbfb;
+	margin-right: auto;
+}
+
+.course {
+	color: white;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+/* 
+============= Main =============
+*/
+
+.main {
+	position: relative;
+	color: white;
+	padding: 0 30px;
+	overflow: hidden;
+	height: 100vh;
+}
+
+.title {
+	padding: 50px 20px 10px 20px;
+	margin: 0;
+}
+
+.main-logo {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	right: -25%;
+	transform: translateY(-35%);
+	width: 50%;
+	filter: grayscale(1) opacity(0.08);
+}
+
+.main-list {
+	font-weight: 400;
+	list-style: none;
+}
+
+.main-list li {
+	padding-bottom: 10px;
+	font-weight: 400;
+}
+
+.main-list li::before {
+	content: '\2022';
+	color: #61dbfb;
+	font-weight: bold;
+	font-size: 25px;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
